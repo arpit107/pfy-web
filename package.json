@@ -2,9 +2,6 @@
   "name": "Baseproject",
   "version": "1.0.0",
   "description": "Base project template is the boilerplate code for creating any new angular application",
-  "node": "5.9.1",
-  "ejs": "2.4.1",
-  "express": "4.13.3",
   "main": "Gruntfile.js",
   "scripts": {
     "unit": "grunt unit"
