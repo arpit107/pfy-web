@@ -1,0 +1,24 @@
+<div ng-controller="PositionController" layout-margin>
+<md-card class="md-whiteframe-3dp">
+   <mdt-table class="headline" table-card="{title:'Positions'}">
+	    <mdt-header-row>
+	      <mdt-column align-rule="left">Company</mdt-column>
+	      <mdt-column align-rule="right">Position</mdt-column>
+	      <mdt-column align-rule="right">SPOC</mdt-column>
+	      <mdt-column align-rule="right">Open</mdt-column>
+	      <mdt-column align-rule="right">Screened</mdt-column>
+	      <mdt-column align-rule="right">Shortlisted</mdt-column>
+	      <mdt-column align-rule="right">Selected</mdt-column>
+	    </mdt-header-row>
+	    <mdt-row ng-repeat="company in companyList" >
+	          <mdt-cell>{{company.name}}</mdt-cell>
+		      <mdt-cell>{{company.position}}</mdt-cell>
+		      <mdt-cell>{{company.spoc}}</mdt-cell>
+		      <mdt-cell class="round1">{{company.open}}</mdt-cell>
+		      <mdt-cell class="round2">{{company.screened}}</mdt-cell>
+		      <mdt-cell class="round3">{{company.shortlisted}}</mdt-cell>
+		      <mdt-cell class="round4">{{company.selected}}</mdt-cell>
+	    </mdt-row>
+	</mdt-table>
+</md-card>
+</div>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+	<title>Base project for windmill</title>
+	<meta charset="utf-8">
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- start - favicons -->
+	<!-- end - favicons -->
+	<!-- build:css(src) assets/styles/vendor.css -->
+	<!-- bower:css -->
+	<link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+	<link rel="stylesheet" href="bower_components/angular-material-icons/angular-material-icons.css" />
+	<link rel="stylesheet" href="bower_components/mdDataTable/dist/md-data-table-style.css" />
+	<!-- endbower -->
+	<!-- endbuild -->
+	<!-- build:css(.tmp) assets/styles/app.css -->
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/angular_material/0.8.3/angular-material.min.css">
+    <!-- endbuild -->
+</head>
+<body ng-app="app">
+    
+	
+
+	<!-- build:js(src) scripts/vendor.js -->
+	<!-- bower:js -->
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/ui-router/release/angular-ui-router.js"></script>
+	<script src="bower_components/angular-resource/angular-resource.js"></script>
+	<script src="bower_components/angular-animate/angular-animate.js"></script>
+	<script src="bower_components/angular-aria/angular-aria.js"></script>
+	<script src="bower_components/angular-messages/angular-messages.js"></script>
+	<script src="bower_components/angular-material/angular-material.js"></script>
+	<script src="bower_components/lodash/lodash.js"></script>
+	<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+	<script src="bower_components/angular-material-icons/angular-material-icons.min.js"></script>
+	<script src="bower_components/mdDataTable/dist/md-data-table.js"></script>
+	<script src="bower_components/mdDataTable/dist/md-data-table-templates.js"></script>
+	<script src="bower_components/underscore/underscore.js"></script>
+	<script src="bower_components/angular-mocks/angular-mocks.js"></script>
+	<!-- endbower -->
+	<!-- endbuild -->
+	<!-- build:js(src) scripts/app.js -->
+	<!-- injector:js -->
+	<script src="app/app.js"></script>
+	<script src="app/_components/components.module.js"></script>
+	<script src="app/_components/dynamic-sample/dynamic-sample.module.js"></script>
+	<script src="app/_components/static-sample/static-sample.module.js"></script>
+	<script src="app/_header/header.module.js"></script>
+	<script src="app/sample/sample.module.js"></script>
+	<script src="app/app.config.js"></script>
+	<script src="app/sample/sample.config.js"></script>
+	<script src="app/_components/dynamic-sample/dynamic-sample.service.js"></script>
+	<script src="app/_components/static-sample/static-sample.service.js"></script>
+	<script src="app/_components/dynamic-sample/dynamic-sample.directive.js"></script>
+	<script src="app/_components/static-sample/static-sample.directive.js"></script>
+	<script src="app/_header/header.controller.js"></script>
+	<script src="app/sample/sample.controller.js"></script>
+	<!-- endinjector -->
+	<!-- injector:mocks -->
+	<script src="mocks/backend.mock.js"></script>
+	<script src="mocks/_service-models/dynamic.model.js"></script>
+	<script src="mocks/_service-models/static.model.js"></script>
+	<!-- endinjector -->
+	<!-- endbuild -->
+</body>

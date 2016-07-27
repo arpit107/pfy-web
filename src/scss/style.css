@@ -1,0 +1,173 @@
+html,body
+{
+	font-family:'Roboto',sans-serif;
+	font-size:16px;
+	margin:0;
+	padding:0;
+}
+.md-headline
+{
+	color:#263f73;
+}
+.md-subheader
+{
+	background:#b5bdc3;
+}
+
+md-toolbar:not(.md-menu-toolbar) md-icon,
+.md-subheader md-icon
+{
+	color:#263f73;
+}
+.material-icons:hover
+{
+	color:orange;
+}
+.md-subheader .md-subheader-inner 
+{
+	padding:0;
+}
+mdt-table > md-content
+{
+	background:#fff;
+}
+.mdtTable .mdt-header
+{
+  color:#263f73;
+  font-size:24px;
+  font-weight:400;
+}
+
+.md-avatar-icon
+{
+	width:40px;
+	height:40px;
+}
+/*.navyBlueText{color:#263f73;}*/
+md-content > md-content > div {
+  height: 100%;
+}
+.white_text
+{
+	color:#fff;
+}
+.toolbar-button
+{
+	min-width:20px;
+	line-height:0;
+}
+/***************** General Styles **********************/
+
+.pad-left12
+{
+	padding-left: 12px;
+}
+.mar-top20
+{
+	margin-top: 20px;
+}
+.text-center
+{
+    text-align: center;
+}
+.pad-top33 
+{
+	padding-top: 33px;
+}
+.pad-top8
+{
+	padding-top: 8px;
+}
+.mar0
+{
+	margin:0;
+}
+/****************Side Navigation Styles ****************/
+
+md-sidenav md-menu-item
+{
+	height: 55px;
+	min-height: 57px;
+	color: #fff;
+}
+md-menu-item md-icon
+{
+	color: #fff;
+}
+.nav-bg
+{
+	background: #263f73;
+}
+.sidenav-bg
+{
+	background: #263f73;
+}
+/*.user-profile
+{
+	background-image:url("../assets/images/user-profile-bg.png");
+	background-repeat:repeat;
+}*/
+
+/*************************** Header ***********************/
+
+md-content .layout-margin
+{
+	margin:15px;
+}
+md-input-container .md-input 
+{
+	font-size:14px;
+	color:#428bca;
+}
+/*md-toolbar .md-button {
+    border-radius: 99%; // round toolbar buttons
+}*/
+.user-avatar {
+  border-radius: 99%;
+}
+md-card {
+  background-color: #fff;
+  margin:0;
+  /*h2:first-of-type {
+    margin-top: 0;
+  }*/
+}
+md-toolbar:not(.md-menu-toolbar) 
+{
+	background:rgb(255,255,255);
+	color: #263f73;
+}
+.mdtTable th
+{
+	font-size:15px;
+}
+.mdtTable tr td
+{
+	color:#5b5b5b;
+	font-size:14px;
+	font-weight:600;
+}
+mdt-cell >td >.round1
+{
+	width:20px;
+	height:20px;
+	border-radius:90%;
+	background:#000;
+}
+.mdtTable .rightAlignedColumn 
+{
+	text-align:center;
+}
+/*md-toolbar:not(.md-hue-1),
+.md-fab {
+  fill: #fff;
+}
+md-sidenav {
+  fill: #737373;
+  ng-md-icon {
+    position: relative;
+    top: 5px; // adjust for svg viewbox
+  }
+}*/
+
+
